@@ -14,6 +14,25 @@ body {
   visibility: hidden;
 }
 
+.swal2-popup {
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    grid-template-columns: minmax(0,100%);
+    width: 32em;
+    max-width: 100%;
+    padding: 0 0 1.25em;
+    border: none;
+    background: rgba(255, 255, 255, 1) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(9.4px) !important;
+    -webkit-backdrop-filter: blur(9.4px) !important;
+    color: #545454;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
 .container {
   height: 100vh;
   margin: 0 auto;
